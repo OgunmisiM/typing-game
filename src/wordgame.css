@@ -1,0 +1,46 @@
+html,body{
+  background: #1e1d1d;
+  color: #0a7f99;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  font-family: 'press start 2p', cursive;
+  text-align: center;
+}
+body{
+  font-weight: 400;
+}
+
+button{
+  font-family: 'press start 2p', cursive;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #0a7f99;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+button:disabled{
+  cursor: not-allowed;
+}
+h1{
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+textarea{
+  font-family: 'press start 2p', cursive;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #0a7f99;
+  padding: 10px;
+  font-size: large;
+}
+Textarea:disabled{
+  background: #a8a2a2;
+}
